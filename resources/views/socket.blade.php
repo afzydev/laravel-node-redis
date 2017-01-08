@@ -9,7 +9,7 @@
 <h1>My First NodeApp</h1>
 
 <ul id="messages">
-    
+
 </ul>
 
 <script type="text/javascript">
@@ -18,7 +18,7 @@ var socket = io('localhost:3000');
 socket.on( 'test-channel:App\\Events\\UserSignedUp', function( data ) {
     var actualContent = $( "#messages" ).html();
     var name = '<li>Name: <strong>' + data.username + '</strong> </li>';
-    var age = '<li>Name: <strong>' + data.age + '</strong> </li>';
+    var age = '<li>Age: <strong>' + data.age + '</strong> </li>';
     var content = name+ age + actualContent;
 
     $( "#messages" ).html( content );
