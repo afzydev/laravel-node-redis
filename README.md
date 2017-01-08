@@ -6,17 +6,17 @@
 
 3.change "CACHE_DRIVER=file" to  "CACHE_DRIVER=redis"
 
-4.Install redis client on your machine.Depending upon your system configuration download according to it.
+4.Install Redis Client on your machine.Depending upon your system configuration download according to it.
 
-5.composer install
+###5.composer install
 
-6.npm install make sure all the node_modules gets install on your laravel root folder.
+###6.npm install make sure all the node_modules gets install on your laravel root folder.
 
-7.php artisan serve
+###7.php artisan serve
 
 8.open http://localhost:8000 on your browser .
 
-6.Now start the node server "node server.js" which is present on root folder.It will start on port number 3000.
+###6.Now start the node server "node server.js" which is present on root folder.It will start on port number 3000.
 
 7.Open the second browser and see the real time changes.
 
